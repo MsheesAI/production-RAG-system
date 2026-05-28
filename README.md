@@ -49,5 +49,32 @@ If you split correctly:
 
 <img width="685" height="340" alt="image" src="https://github.com/user-attachments/assets/7096fdb1-a971-45a0-8a18-4ce093a3e81a" />
 
-## 3.Text Splitters
+## 3.Embeddings
+
+Embeddings = converting text into numbers (vectors) so a computer can understand meaning.
+Instead of storing text like:
+"Python is used in AI"
+We convert it into something like:
+```
+[0.12, -0.98, 0.33, ..., 0.71]
+```
+we use embeddings because computers cannot compare meanings using words we used embeddings for :
+✔ semantic search (meaning-based search)
+✔ not keyword search
+✔ better answers in RAG
+
+🔥 Simple Idea
+
+Think of embeddings like this:
+
+Text	Meaning
+"car"	vector A
+"vehicle"	vector close to A
+"banana"	far away vector
+
+👉 similar meaning = close vectors
+👉 different meaning = far vectors
+
+<img width="800" height="401" alt="image" src="https://github.com/user-attachments/assets/d58903e3-cca0-4265-b1b8-51cbec15eb88" />
+
 
