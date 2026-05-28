@@ -106,5 +106,32 @@ pinecone
 
 <img width="1399" height="537" alt="image" src="https://github.com/user-attachments/assets/532c89ce-cbb7-4573-bbe6-b0c7169a5639" />
 
+## 5.Complete pipeline overview
+
+#### ⚙️ FULL PIPELINE FLOW
+```
+1. Data Sources
+   ↓
+2. Document Loader
+   ↓
+3. Text Splitter
+   ↓
+4. Embeddings Model
+   ↓
+5. Vector Database (FAISS / Chroma)
+   ↓
+6. User Query
+   ↓
+7. Query Embedding
+   ↓
+8. Similarity Search (Retrieval)
+   ↓
+9. Retrieved Context
+   ↓
+10. LLM (Final Answer)
+```
+
+
+<img width="1024" height="614" alt="image" src="https://github.com/user-attachments/assets/31e92a7e-b07e-4194-a317-a6b2fc5f7203" />
 
 
