@@ -77,4 +77,34 @@ Text	Meaning
 
 <img width="800" height="401" alt="image" src="https://github.com/user-attachments/assets/d58903e3-cca0-4265-b1b8-51cbec15eb88" />
 
+## 4. Vector Stores / Data base
+A vector database is a special type of database that stores:
+
+👉 embeddings (vectors)
+👉 and allows fast similarity search
+Instead of searching by keywords, it searches by meaning.
+📦 Simple definition
+
+A vector DB stores:
+
+``` "text" → [0.12, -0.88, 0.33, ...] ```
+Then when you ask a question, it finds:
+👉 “which stored vector is closest in meaning?”
+
+🔥 Why normal database is NOT enough
+Traditional DB (SQL):
+searches exact words
+like: "Python"
+Vector DB:
+understands meaning
+like: "programming language for AI"
+
+Most popular Vecot DB are :
+FAISS
+Chroma
+pinecone
+
+<img width="1399" height="537" alt="image" src="https://github.com/user-attachments/assets/532c89ce-cbb7-4573-bbe6-b0c7169a5639" />
+
+
 
