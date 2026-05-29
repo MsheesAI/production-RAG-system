@@ -1,6 +1,6 @@
-import chroma_db
+import chromadb
 
-client = chroma_db.Client()
+client = chromadb.Client()
 
 collection_name = "my_collection"
 
@@ -12,6 +12,7 @@ documents = [
     {"id": "3", "text": "Goodbye!"}
 ]
 for doc in documents:
-  collection.upsert_document(ids =  doc['id'], texts = doc['text'])
+  collection.upsert(ids =  doc['id'], texts = doc['text'])
 
 query = "Hello world"
+results = collection.query(query_texts=[query], n_results=2)
